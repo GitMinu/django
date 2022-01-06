@@ -124,3 +124,6 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 SLOTS = {'car': 200, 'bike': 50}
+
+DEFAULT_TARIFF_FIELD='django.db.models.TariffField'
+TARIFF={'car': 15, 'bike':5}
